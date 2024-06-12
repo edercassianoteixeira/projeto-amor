@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+    color: white;
+}
+
+main{
+    background-color: rgba(255, 122, 151, 0.418);
+    height: 100%;
+    max-width: 700px;
+    margin: auto;
+    text-indent: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    }
+    
+p#botoes input{
+    padding: 5px;
+    color: rgb(71, 34, 42);
+    font-size: 0.9em;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+div#espaco1{
+    display: none;
+    background-color: black;
+    color: rgb(255, 122, 151);
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+    
+div#espaco2{
+    display: none;
+    background-color: black;
+    color: transparent;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+div#res p{
+    padding-top: 20px;
+}
+
+footer{
+    height: 20px;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 122, 151);
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media (width >= 600px) {
+    div#espaco1{
+        background: black url('../imagens/imagem.jpg') center center no-repeat;
+        background-size: cover;
+        height: 160px;
+        width: 300px;
+    }
+
+    div#espaco1 p{
+        color: transparent;
+    }
+    
+    div#espaco2{
+        margin-top: 0px;
+        background-color: white;
+        color: black;
+        padding-top: 0px;
+        height: 0px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Te amo Cabeçuda</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quem é você?</h1>
+    </header>
+    <main>
+        <article>
+            <form action="teste.php" method="get" autocomplete="on">
+                <p>
+                    <label for="inome">Seu nome: </label>
+                    <input type="text" name="nome" id="inome" required autocomplete="name">
+                </p>
+                <p>
+                    <label for="isob">Seu sobrenome: </label>
+                    <input type="text" name="sob" id="isob" required autocomplete="name">
+                </p>
+                <p>
+                    <label for="idata">Nossa data: </label>
+                    <input type="date" name="data" id="idata" required autocomplete="bday-day">
+                </p>
+                <p id="botoes">
+                    <input type="button" value="Verificar" onclick="verificar()">
+                    <input type="reset" value="Limpar" onclick="limpar()">
+                </p>
+            </form>
+        </article>
+        <div id="res">
+            <div id="espaco1">
+                <p>Vire a Tela</p>
+            </div>
+            <div id="espaco2">
+                
+            </div>
+        </div>        
+    </main>
+    <footer>
+        <p>Site criado para o amor da vida do <a href="https://github.com/edercassianoteixeira">DEV</a></p>
+    </footer>
+</body>
+</html>
