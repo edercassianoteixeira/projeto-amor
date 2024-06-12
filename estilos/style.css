@@ -57,7 +57,7 @@ div#espaco1{
     background-color: black;
     color: rgb(255, 122, 151);
     height: 100px;
-    width: 400px;
+    width: 200px;
     margin: auto;
     text-align: center;
     margin-top: 5px;
@@ -66,7 +66,6 @@ div#espaco1{
     
 div#espaco2{
     display: none;
-    background-color: black;
     color: transparent;
     height: 100px;
     width: 400px;
