@@ -11,6 +11,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
+    background-color: rgb(255, 122, 151);
 }
 
 header{
@@ -26,9 +27,8 @@ header h1{
 }
 
 main{
-    background-color: rgba(255, 122, 151, 0.418);
-    height: 100%;
-    max-width: 700px;
+    height: 100vh;
+    width: 100vw;
     margin: auto;
     text-indent: 10px;
 }
@@ -78,25 +78,6 @@ div#espaco2{
 
 div#res p{
     padding-top: 20px;
-}
-
-footer{
-    height: 20px;
-    font-size: 0.8em;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding-top: 5px;
-}
-
-footer a{
-    text-decoration: none;
-    color: rgb(255, 122, 151);
-    font-weight: bolder;
-}
-
-footer a:hover{
-    text-decoration: underline;
 }
 
 @media (width >= 600px) {
